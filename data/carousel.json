@@ -1,0 +1,22 @@
+{
+    "data":[
+        {
+            "imageUrl": "./assets/img/carousel_1.png",
+            "imageAlt": "Carousel Image 1",
+            "description": "lorem ipsum",
+            "title": "Banner 1"
+        },
+        {
+            "imageUrl": "./assets/img/carousel_2.jpg",
+            "imageAlt": "Carousel Image 2",
+            "description": "lorem ipsum",
+            "title": "Banner 2"
+        },
+        {
+            "imageUrl": "./assets/img/carousel_3.png",
+            "imageAlt": "Carousel Image 3",
+            "description": "lorem ipsum",
+            "title": "Banner 3"
+        }
+    ]
+}

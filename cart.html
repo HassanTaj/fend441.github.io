@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- This is an Html Comment-->
+    <!-- here we have meta data  about the web page-->
+    <title>Evs Front End Batch 441</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.css">
+    <!-- put custom styles at end -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html">Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cart.html">Cart
+                            <i class="badge bg-primary item-count-js">0</i>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container pt-5">
+        <div class="d-flex-inline justify-content-center justify-items-center align-items-center text-center loader d-none"
+            style="font-size: 30px;">
+            <i class="fa fa-spinner fa-spin"></i> Loading...
+        </div>
+        <section class="row pt-3">
+            <div class="d-flex justify-content-between p-2">
+                <h3>Cart</h3>
+                <button class="btn btn-danger clear-cart">Clear <i class="fa fa-trash"></i></button>
+            </div>
+            <hr>
+        </section>
+        <section class="row pt-5" id="cartOutlet">
+            <!-- <div class="col-6">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="..." class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                    additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- <div class="col-3">
+            <div class="card">
+                <img class="img-fluid rounded-2" src="https://media.istockphoto.com/photos/white-microsoft-lumia-smartphone-picture-id884023820?s=612x612" alt="">
+                <div class="card-body px-2">
+                    <h5 class="card-title text-capitalize" style="font-size: 16px;">Nokia Windows</h5>
+                    <p class="card-text" style="font-size: 14px;">
+                        <strong>Price</strong> 400$
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta id aspernatur iure! Commodi natus totam fugiat voluptate aspernatur placeat aperiam qui a eaque distinctio. Debitis?
+                        </p>
+                    </p>
+                    <div class="">
+                        <button class="btn btn-warning"><i class="fa fa-star"></i></button>
+                        <button class="btn btn-secondary">Buy <i class="fa fa-money-bill-wave-alt"></i></button>
+                        <button class="btn btn-primary">Add To <i class="fa fa-cart-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+           </div> -->
+        </section>
+    </main>
+
+    <!-- scripts -->
+    <script src="./assets/bootstrap/js/bootstrap.js"></script>
+    <script src="./assets/fonts/fontawesome/js/all.js"></script>
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/cart.js"></script>
+    <script src="./assets/js/scripts.js"></script>
+</body>
+
+</html>

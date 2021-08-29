@@ -1,0 +1,14 @@
+<personList>
+    <person>
+        <name>Ali</name>
+        <age>20</age>
+    </person>
+    <person>
+        <name>Ahmad</name>
+        <age>25</age>
+    </person>
+    <person>
+        <name>Ashir</name>
+        <age>26</age>
+    </person>
+</personList>

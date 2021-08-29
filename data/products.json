@@ -1,0 +1,12 @@
+[
+    {
+        "productName":"Huawei P40 Pro",
+        "price":400,
+        "currency":"USD"
+    },
+    {
+        "productName":"Huawei P30 Pro",
+        "price":300,
+        "currency":"USD"
+    }
+]
